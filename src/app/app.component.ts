@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'api-minjus';
+
+  getName():void {
+    console.log("Test")
+  }
 }
